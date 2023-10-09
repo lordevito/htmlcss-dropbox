@@ -76,7 +76,7 @@ header nav ul li{
     list-style-type: none;
     padding: 29px 0px;
 }
-.navigazione li:hover{
+.navigazione .mouse:hover{
     border-bottom: 1px solid black;
 }
 
