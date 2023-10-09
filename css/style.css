@@ -23,6 +23,14 @@ COMMON
     color: white;
     border: none;
 }
+h1,h2,h3{
+    font-weight: bolder;
+}
+.hbox{
+    margin: 20px auto; 
+    max-width: 1100px;
+    display: flex;
+}
 
 /*
 *********
@@ -31,12 +39,23 @@ HEADER
 */
 
 header{
+    background-color: #b4d0e7;
+}
+
+.container{
+    height: 700px;
+    margin: 20px auto;
+    padding-top: 100px;
+}
+
+header nav{
     height: 80px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 3;
+    background-color: white
 }
 
 .navigazione{
@@ -59,4 +78,27 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     color: black;
+}
+h1{
+    font-size: 50px;
+    max-width: 1100px;
+    margin: 100px auto 10px auto;
+}
+
+.lightblue{
+    flex-grow: 1;
+}
+.photo{
+    flex-grow: 2;
+}
+.photo img{
+    width: 780px;
+    display: block;
+}
+.lightblue>*{
+    margin-bottom: 30px;
+}
+.lightblue i{
+    font-size: 30px;
+    margin-top: 30px;
 }
