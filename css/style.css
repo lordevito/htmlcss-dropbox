@@ -74,10 +74,18 @@ header nav{
 }
 header nav ul li{
     list-style-type: none;
+    padding: 29px 0px;
 }
+.navigazione li:hover{
+    border-bottom: 1px solid black;
+}
+
 header nav ul li a{
     text-decoration: none;
     color: black;
+}
+header nav ul li a:hover{
+    font-weight: 700;
 }
 h1{
     font-size: 70px;
