@@ -194,3 +194,18 @@ MAIN
     display:flex;
     justify-content: space-between;
 }
+.table{
+    border: 1px solid #d0d0d3;
+    margin: 50px 0px;
+}
+#horizon{
+    display:flex;
+}
+.fourth{
+    width: 70%;
+    padding-right: 60px;
+}
+.fifth{
+    width:30%;
+    margin: -20px 0px;
+}
