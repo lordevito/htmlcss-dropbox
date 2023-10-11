@@ -365,3 +365,79 @@ Sezione Clienti
     background-color: white;
     color: black;
 }
+.difference{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+.dropdown i{
+    padding-right:40px
+}
+.container2 h2{
+    margin-bottom: 40px;
+}
+.dropdown{
+    position: relative;
+}
+.hidden{
+    position: absolute;
+    top:30px;
+    left:0;
+    visibility: hidden;
+    opacity: 0;
+}
+.dropdown i:hover .hidden{
+    transition: .5s;
+    visibility: 1;
+    opacity: 1;
+}
+
+/*
+*********
+FOOTER
+*********
+*/
+
+.bg-black{
+    background-color: black;
+}
+.container4{
+    margin: 70px auto;
+    max-width: 1200px;
+}
+.linklist{
+    display: flex;
+    justify-content: space-between;  
+}
+.container4 ul{
+    list-style: none;
+    padding: 50px 0px;
+    
+}
+.container4 li{
+    margin: 10px 0px;
+    font-size: 12px;
+    color: white;
+}
+li h2{
+    margin-bottom: 20px;
+}
+.container4 hr{
+    color: gray;
+    margin: 60px 0px 30px 0px;
+}
+.c-grey{
+    color: grey;
+    display: flex;
+    padding-bottom: 60px;
+}
+.c-grey :first-child{
+    position: relative;
+    top:2px;
+    right:3px;
+}
+.c-grey :last-child{
+    position: relative;
+    top:3px;
+    left:2px; 
+}
