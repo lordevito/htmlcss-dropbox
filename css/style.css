@@ -112,9 +112,11 @@ header{
 }
 
 .container{
-    height: 750px;
     margin: 20px auto;
     padding-top: 80px;
+    position: relative;
+    top: 80px;
+    left:0px;
 }
 
 header nav{
@@ -189,7 +191,7 @@ MAIN
 */
 
 .container2{
-    margin: 50px auto;
+    margin: 150px auto;
     max-width: 1000px;
 }
 .checkbox{
@@ -383,8 +385,17 @@ Sezione Clienti
     justify-content: space-between;
     margin: 40px 0px;
 }
+.dropdown span{
+    font-size: 16px;
+    font-weight: bold;
+}
+.dropdown p{
+    margin-top: 40px;
+}
 .dropdown i{
-    padding-right:40px
+    position: relative;
+    top:0;
+    left: 290px;
 }
 .container2 h2{
     margin-bottom: 40px;
@@ -392,8 +403,7 @@ Sezione Clienti
 .hidden{
     display:none
 }
-.dropdown i:hover .hidden{
-    
+.dropdown i:hover +.hidden{
     display: block;
 }
 
