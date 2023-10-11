@@ -51,9 +51,13 @@ h1,h2,h3{
 .col h3{
     margin: 30px 0px 20px 0px;
 }
+.grey{
+    color: #7f6666;
+    margin: 15px 0px;
+}
 .change{
-    color: #6699ce;
-    margin-top: 15px;
+    margin-top: 10px;
+    color: grey;
 }
 .price{
     /*margin: 0px 0px 15px 0px;*/
@@ -61,6 +65,7 @@ h1,h2,h3{
 .col ul{
     list-style-type: none;
     margin-top: 55px;
+    text-indent: 2px;
 }
 .list li{
     padding: 25px 0px;
@@ -86,6 +91,9 @@ h1,h2,h3{
   }
  .blue i{
     color: #0061ff;
+ }
+ .large{
+    padding: 50px 0px;
  }
 /*
 *********
@@ -259,4 +267,101 @@ Presentazione programma
 }
 .link{
     margin: 50px 0px;
+}
+
+/*
+Sezione Clienti
+*/
+
+.square{
+    margin-top: 150px;
+    display:flex;
+}
+.square-clients{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+.small-square{
+    height: 50%;
+    width:50%;
+    position: relative;
+}
+.small-square.active{
+    border:15px solid rgba(255, 255, 255, 0,5)
+}
+.bg-green{
+    background-color: #a2d39b;
+}
+.bg-dark{
+    background-color: #61082b;
+}
+.bg-blue{
+    background-color: #0093ce;
+}
+.bg-light{
+    background-color: #ff1c1c;
+}
+.bg-red{
+    background-color: #d5001f;
+}
+.bg-lightblue{
+    background-color: #b4d0e7;
+}
+.bg-darkblue{
+    background-color: #0d2481;
+}
+.bg-yellow{
+    background-color: #ffd830;
+}
+.small-square img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+.wid{
+    max-width: 100%;
+}
+.description{
+    padding: 20px 50px;
+    overflow: auto;
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+.description hr{
+    margin-top: 30px;
+    color: gray;
+}
+.description p{
+    margin: 40px 0px;
+}
+.description img{
+    width: 60%;
+    padding-top: 10px;
+}
+.bg-grey{
+    background-color: #f5f5f5;
+}
+#flecs{
+    display: flex;
+}
+.fifty{
+    width: 50%;
+}
+.fifty button{
+    border: none;
+    padding: 5px 20px;
+    margin-top: 5px;
+}
+.fifty h2{
+    color: #61082b;
+}
+#alternative2{
+    border: none;
+    background-color: white;
+    color: black;
 }
