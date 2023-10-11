@@ -67,8 +67,14 @@ h1,h2,h3{
     margin-top: 55px;
     text-indent: 2px;
 }
+.list li i{
+    position: relative;
+    top: 2px;
+    left: 0px;
+}
 .list li{
     padding: 25px 0px;
+    display: flex;
 }
 .col .btn{
     margin-top: 50px;
@@ -188,9 +194,16 @@ MAIN
 }
 .checkbox{
     margin: 70px 0px 50px 0px;
-    gap: 0px 50px;
+   
 }
-
+.checkbox label{
+    margin-right: 30px;
+}
+.checkbox input{
+    position: relative;
+    top: 2px;
+    right: 1px;
+}
 /*
 Inizio tabelle
 */
@@ -376,20 +389,12 @@ Sezione Clienti
 .container2 h2{
     margin-bottom: 40px;
 }
-.dropdown{
-    position: relative;
-}
 .hidden{
-    position: absolute;
-    top:30px;
-    left:0;
-    visibility: hidden;
-    opacity: 0;
+    display:none
 }
 .dropdown i:hover .hidden{
-    transition: .5s;
-    visibility: 1;
-    opacity: 1;
+    
+    display: block;
 }
 
 /*
@@ -400,6 +405,7 @@ FOOTER
 
 .bg-black{
     background-color: black;
+    padding: 40px;
 }
 .container4{
     margin: 70px auto;
